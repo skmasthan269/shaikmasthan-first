@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <p>hellow world</p>
+    <div>
+        <form id="myForm" action="/indexjs" method="post">
+            <div>
+                <label for="username">Enter Username: </label>
+                <input type="text" name="username" id="username" placeholder="username">
+            </div>
+            <div>
+                <label for="password">Enter Password: </label>
+                <input type="password" name="password" id="password" placeholder="password">
+            </div>
+            <div class="gender">  
+                <label for="gender">Select your Gender:</label> 
+                <div class="radio_label">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">female</label>
+                </div>
+            </div>
+            <input type="submit" value="Submit">
+            <h3 id="error" style="color: red;"></h3>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.gender {
+    display: flex;
+    gap: 2px;
+}
+
+.radio_label {
+    display: flex;
+    gap: 4px;
+}
+
+input {
+    cursor: pointer;
+}
